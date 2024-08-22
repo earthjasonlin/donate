@@ -53,6 +53,7 @@ function loadBlockchainOptions() {
 
 function changeLanguage(lang) {
     loadI18n(`i18n/${lang}.json`, () => {
+        document.getElementById("thank-you").innerHTML = i18n.thankYou;
         document.getElementById("title-text").textContent = i18n.title;
         document.getElementById("copyAddress").textContent = i18n.copyAddress;
         loadBlockchainOptions();
