@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="card">
-            <h1 id="title"><img src="logo.png" alt="asadasd" width="24px"> 捐赠加密货币</h1>
+            <h1><img id="title-icon" src="logo.png" alt=""><span id="title-text">捐赠加密货币</span></h1>
             <div class="donation-card">
                 <div class="select-wrapper">
                     <select id="blockchain" onchange="updateDonationInfo()"></select>
@@ -21,7 +21,7 @@
                 <div id="donation-info">
                     <img id="qr-code" src="qr/btc-taproot.png" alt="QR Code">
                     <p id="address">bc1pfx4a7n6fuyum4dv6rjmg9nsuj7t9wdepjjgsp67d6n8hsdp8w47qw228fy</p>
-                    <button onclick="copyAddress()" id="copyAddress">复制地址</button>
+                    <button onclick="copyAddress()"><img id="copyIcon" src="img/copy-white.png" alt=""><span id="copyAddress">复制地址</span></button>
                 </div>
             </div>
         </div>

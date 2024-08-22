@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Microsoft YaHei;
     background-color: #f2f2f2;
     display: flex;
     justify-content: center;
@@ -25,8 +25,14 @@ body {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
+}
+
+#title-icon {
+    width: 30px; 
+    vertical-align: bottom;
+    margin-right: 8px;
 }
 
 .donation-card {
@@ -56,13 +62,13 @@ select {
     height: 30px;
 }
 
-#donation-info img {
+#qr-code {
     width: 150px;
-    height: 150px;
     margin-bottom: 15px;
 }
 
 #address {
+    font-family: consolas;
     font-size: 14px;
     background-color: #f0f0f0;
     padding: 10px;
@@ -84,6 +90,12 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+#copyIcon {
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
 }
 
 .language-list {
