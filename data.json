@@ -1,0 +1,27 @@
+{
+    "monero": {
+        "address": "85z2KvhGAsqP3CqB4PngKZCPYRrSX6pMBEcfzhZpVb8n1bzo8NvwhxbaagjPJpnDfJPXL5WQQ8aMBTDwWTH2hfqbCvMcnxS",
+        "qr": "qr/xmr-1.png",
+        "icon": "icons/xmr.png"
+    },
+    "bitcoin": {
+        "address": "bc1pfx4a7n6fuyum4dv6rjmg9nsuj7t9wdepjjgsp67d6n8hsdp8w47qw228fy",
+        "qr": "qr/btc-taproot.png",
+        "icon": "icons/btc.png"
+    },
+    "eth": {
+        "address": "0x75aa91c8a00966bAc3a1a4371C8588D018Dbd7c4",
+        "qr": "qr/eth.png",
+        "icon": "icons/eth.png"
+    },
+    "tron": {
+        "address": "TEMzQqABo7ttKioED8CVtTFkLz57cBSYc7",
+        "qr": "qr/trx.png",
+        "icon": "icons/trx.png"
+    },
+    "solana": {
+        "address": "BDL89QkYohoU1zdx2wZtw2zDkcx6xth1ecrV6bhPja2a",
+        "qr": "qr/sol.png",
+        "icon": "icons/sol.png"
+    }
+}

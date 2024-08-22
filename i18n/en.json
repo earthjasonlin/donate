@@ -1,0 +1,12 @@
+{
+    "title": "Donate Cryptocurrency",
+    "copyAddress": "Copy Address",
+    "copyAddressSuccess": "Address Copied!",
+    "english": "English",
+    "chinese": "中文",
+    "tron": "Tron",
+    "eth": "EVM Capable",
+    "bitcoin": "Bitcoin",
+    "solana": "Solana",
+    "monero": "Monero"
+}

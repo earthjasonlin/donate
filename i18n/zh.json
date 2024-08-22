@@ -1,0 +1,12 @@
+{
+    "title": "捐赠加密货币",
+    "copyAddress": "复制地址",
+    "copyAddressSuccess": "复制成功",
+    "english": "English",
+    "chinese": "中文",
+    "tron": "波场",
+    "eth": "以太坊（EVM兼容网络）",
+    "bitcoin": "比特币",
+    "solana": "Solana",
+    "monero": "门罗币"
+}
