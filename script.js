@@ -1,16 +1,16 @@
-let currentLang = 'zh';
+let currentLang = "zh";
 let data, i18n;
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadData('data.json', loadBlockchainOptions);
+    loadData("data.json", loadBlockchainOptions);
     changeLanguage(currentLang);
-    updateCopyrightYear()
+    updateCopyrightYear();
 });
 
 function updateCopyrightYear() {
     const currentYear = new Date().getFullYear();
-    let copyrightText
-    if(currentYear > 2024) {
+    let copyrightText;
+    if (currentYear > 2024) {
         copyrightText = `&copy; 2024-${currentYear} earthjasonlin. All rights reserved.`;
     } else {
         copyrightText = `&copy; 2024 earthjasonlin. All rights reserved.`;
@@ -20,27 +20,27 @@ function updateCopyrightYear() {
 
 function loadData(url, callback) {
     fetch(url)
-        .then(response => response.json())
-        .then(json => {
+        .then((response) => response.json())
+        .then((json) => {
             data = json;
             callback();
         })
-        .catch(error => console.error('Error loading JSON:', error));
+        .catch((error) => console.error("Error loading JSON:", error));
 }
 
 function loadI18n(url, callback) {
     fetch(url)
-        .then(response => response.json())
-        .then(json => {
+        .then((response) => response.json())
+        .then((json) => {
             i18n = json;
             callback();
         })
-        .catch(error => console.error('Error loading i18n JSON:', error));
+        .catch((error) => console.error("Error loading i18n JSON:", error));
 }
 
 function loadBlockchainOptions() {
     const blockchainSelect = document.getElementById("blockchain");
-    blockchainSelect.innerHTML = '';
+    blockchainSelect.innerHTML = "";
 
     for (const key in data) {
         const option = document.createElement("option");

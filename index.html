@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>加密货币捐赠</title>
-    <link rel="icon" href="favicon.ico"> 
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <div class="card">
-            <h1><img id="title-icon" src="logo.png" alt=""><span id="title-text">捐赠加密货币</span></h1>
-            <div class="donation-card">
-                <div class="select-wrapper">
-                    <select id="blockchain" onchange="updateDonationInfo()"></select>
-                    <div id="icon-wrapper">
-                        <img id="blockchain-icon" src="icons/btc.png" alt="Blockchain Icon">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>加密货币捐赠</title>
+        <link rel="icon" href="favicon.ico" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1>
+                    <img id="title-icon" src="logo.png" alt="" /><span id="title-text"
+                        >捐赠加密货币</span
+                    >
+                </h1>
+                <div class="donation-card">
+                    <div class="select-wrapper">
+                        <select id="blockchain" onchange="updateDonationInfo()"></select>
+                        <div id="icon-wrapper">
+                            <img id="blockchain-icon" src="icons/btc.png" alt="Blockchain Icon" />
+                        </div>
+                    </div>
+                    <div id="donation-info">
+                        <img id="qr-code" src="qr/btc-taproot.png" alt="QR Code" />
+                        <p id="address">
+                            bc1pfx4a7n6fuyum4dv6rjmg9nsuj7t9wdepjjgsp67d6n8hsdp8w47qw228fy
+                        </p>
+                        <button onclick="copyAddress()">
+                            <img id="copyIcon" src="img/copy-white.png" alt="" /><span
+                                id="copyAddress"
+                                >复制地址</span
+                            >
+                        </button>
                     </div>
                 </div>
-                <div id="donation-info">
-                    <img id="qr-code" src="qr/btc-taproot.png" alt="QR Code">
-                    <p id="address">bc1pfx4a7n6fuyum4dv6rjmg9nsuj7t9wdepjjgsp67d6n8hsdp8w47qw228fy</p>
-                    <button onclick="copyAddress()"><img id="copyIcon" src="img/copy-white.png" alt=""><span id="copyAddress">复制地址</span></button>
-                </div>
             </div>
+            <ul class="language-list">
+                <li onclick="changeLanguage('en')">English</li>
+                <li onclick="changeLanguage('zh')">中文</li>
+            </ul>
+            <div class="social-media">
+                <a href="https://github.com/earthjasonlin" target="_blank"
+                    ><img
+                        class="social-icon"
+                        src="https://www.svgrepo.com/download/521688/github.svg"
+                        alt="GitHub"
+                /></a>
+                <a href="https://t.me/zcl1103" target="_blank"
+                    ><img
+                        class="social-icon"
+                        src="https://www.svgrepo.com/download/521874/telegram.svg"
+                        alt="Telegram"
+                /></a>
+                <a href="mailto:earthjasonlin@126.com" target="_blank"
+                    ><img
+                        class="social-icon"
+                        src="https://www.svgrepo.com/download/479773/email-8.svg"
+                        alt="e-Mail"
+                /></a>
+            </div>
+            <footer>
+                <p>&copy; 2024-now earthjasonlin. All rights reserved.</p>
+            </footer>
         </div>
-        <ul class="language-list">
-            <li onclick="changeLanguage('en')">English</li>
-            <li onclick="changeLanguage('zh')">中文</li>
-        </ul>
-        <div class="social-media">
-            <a href="https://github.com/earthjasonlin" target="_blank"><img class="social-icon" src="https://www.svgrepo.com/download/521688/github.svg" alt="GitHub"></a>
-            <a href="https://t.me/zcl1103" target="_blank"><img class="social-icon" src="https://www.svgrepo.com/download/521874/telegram.svg" alt="Telegram"></a>
-            <a href="mailto:earthjasonlin@126.com" target="_blank"><img class="social-icon" src="https://www.svgrepo.com/download/479773/email-8.svg" alt="e-Mail"></a>
-        </div>
-        <footer>
-            <p>&copy; 2024-now earthjasonlin. All rights reserved.</p>
-        </footer>
-    </div>
-    <script src="script.js"></script>
-</body>
+        <script src="script.js"></script>
+    </body>
 </html>

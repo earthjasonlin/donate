@@ -30,7 +30,7 @@ h1 {
 }
 
 #title-icon {
-    width: 30px; 
+    width: 30px;
     vertical-align: bottom;
     margin-right: 8px;
 }
@@ -78,7 +78,7 @@ select {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #4caf50;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -115,7 +115,7 @@ button:hover {
 }
 
 .language-list li:hover {
-    color: #4CAF50;
+    color: #4caf50;
 }
 
 .social-media {
