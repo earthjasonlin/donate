@@ -2,10 +2,18 @@ let currentLang = "zh";
 let data, i18n;
 
 document.addEventListener("DOMContentLoaded", () => {
+    setRandomBackground();
     loadData("data.json", loadBlockchainOptions);
     changeLanguage(currentLang);
     updateCopyrightYear();
 });
+
+function setRandomBackground() {
+    const images = ['1.jpg', '2.jpg'];
+    const randomIndex = Math.floor(Math.random() * images.length);
+    const selectedImage = images[randomIndex];
+    document.body.style.backgroundImage = `url('img/bg/${selectedImage}')`;
+}
 
 function updateCopyrightYear() {
     const currentYear = new Date().getFullYear();
