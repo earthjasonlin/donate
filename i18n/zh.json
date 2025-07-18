@@ -1,0 +1,14 @@
+{
+    "title": "捐赠加密货币",
+    "thankYou": "🎉非常感谢您的支持！🎉<br>您的支持是我前进的最大动力！",
+    "copyAddress": "复制地址",
+    "copyAddressSuccess": "复制成功",
+    "english": "English",
+    "chinese": "中文",
+    "trx": "波场",
+    "eth": "以太坊（所有EVM网络）",
+    "btc": "比特币",
+    "sol": "Solana",
+    "xmr": "门罗币",
+    "sui": "Sui"
+}

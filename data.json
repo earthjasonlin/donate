@@ -1,0 +1,32 @@
+{
+    "btc": {
+        "address": "bc1q84pgh0lcvt6mmcxuvwg6mudk5mdl7gpm6zsuqv",
+        "qr": "img/qr/btc.svg",
+        "icon": "img/icon/blockchain/btc.svg"
+    },
+    "eth": {
+        "address": "0x75aa91c8a00966bac3a1a4371c8588d018dbd7c4",
+        "qr": "img/qr/eth.svg",
+        "icon": "img/icon/blockchain/eth.svg"
+    },
+    "trx": {
+        "address": "TEMzQqABo7ttKioED8CVtTFkLz57cBSYc7",
+        "qr": "img/qr/trx.svg",
+        "icon": "img/icon/blockchain/trx.svg"
+    },
+    "sol": {
+        "address": "BDL89QkYohoU1zdx2wZtw2zDkcx6xth1ecrV6bhPja2a",
+        "qr": "img/qr/sol.svg",
+        "icon": "img/icon/blockchain/sol.svg"
+    },
+    "xmr": {
+        "address": "82qx7c1eNd4DDnF2w3r7nXEEEGbLK16ZJGc3mjviH6hUgnyYWo3jyPBcioEnydkf5uXeSqjqV6erEMNNBoYvR3z4EgU72Vy",
+        "qr": "img/qr/xmr.svg",
+        "icon": "img/icon/blockchain/xmr.svg"
+    },
+    "sui": {
+        "address": "0x5592235ab1631255952582dc8471da97a54e2582253ed90adf10de4a16709ab1",
+        "qr": "img/qr/sui.svg",
+        "icon": "img/icon/blockchain/sui.svg"
+    }
+}

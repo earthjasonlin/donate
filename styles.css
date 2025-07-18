@@ -1,0 +1,152 @@
+body {
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#title-icon {
+    width: 30px;
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+
+#thank-you {
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    color: rgb(197, 41, 2);
+}
+
+.donation-card {
+    text-align: center;
+}
+
+.select-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    flex: 1;
+}
+
+#icon-wrapper {
+    margin-left: 10px;
+}
+
+#blockchain-icon {
+    width: 30px;
+    height: 30px;
+}
+
+#qr-code {
+    width: 150px;
+}
+
+#address {
+    font-family: consolas;
+    font-size: 14px;
+    border-radius: 10px;
+    margin-top: 0;
+    word-break: break-all;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#copyIcon {
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.language-list {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    list-style: none;
+    padding: 0;
+}
+
+.language-list li {
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.language-list li:hover {
+    color: #4caf50;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.1);
+}
+
+.social-icon {
+    width: 30px;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: normal;
+    color: #777;
+}

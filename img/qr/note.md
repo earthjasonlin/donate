@@ -1,0 +1,1 @@
+# Remove background behind Logo, Logo size: 80%
